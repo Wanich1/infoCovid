@@ -4,24 +4,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Welcome to CodeIgniter</title>
+		<title>InfoCovid Terbaru</title>
 
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-		<style>.scrollable{height:400; overflow-y:scroll;}</style>
+		<style>.scrollable{height:300px; overflow-y:scroll;}</style>
 	</head>
 	<body style="background-color:#f1f1f9">
 	<div class="page">
 		<div class="page-main">
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 				<!-- Navbar content -->
-				<a class="navbar-brand" href="/main">InfoCovid</a>
+				<a class="navbar-brand" href="<?php echo base_url('/MainController')?>">InfoCovid</a>
 				<button class="navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav">
 					<li class="nav-item active">
-						<a class="nav-link" href="/main">Home <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="<?php echo base_url('/MainController')?>">Home <span class="sr-only">(current)</span></a>
 					</li>
 					</ul>
 				</div>
